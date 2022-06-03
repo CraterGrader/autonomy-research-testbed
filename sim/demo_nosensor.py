@@ -590,7 +590,7 @@ contact_method = chrono.ChContactMethod_NSC
 # contact_vis = False
 
 # Flag to activate irrlicht
-USE_IRRLICHT = False
+USE_IRRLICHT = True
 
 # Simulation step sizes
 step_size = 1e-3

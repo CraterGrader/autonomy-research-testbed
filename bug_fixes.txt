@@ -1,0 +1,2 @@
+1. Make note about installation instruction: git submodule update --init after cloning
+2. Aaron: You have to rebuild the container after doing the submodule update cause there are dependency definitions in the chrono ros bridge repo that you didn’t have when you built last time
