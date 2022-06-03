@@ -131,6 +131,7 @@ services:
         CONDA_DEPENDENCIES: "python=3.8.12 pip pychrono cudatoolkit anaconda-client conda-build"
         PIP_DEPENDENCIES: ""
     environment:
+      DISPLAY: vnc:0.0
       USER_UID: "@{uid}"
       USER_GID: "@{gid}"
       NVIDIA_VISIBLE_DEVICES: "all"
